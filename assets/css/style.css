@@ -88,7 +88,7 @@ body {
     width: 100%;
 }
 
-#display {
+#displayFiveDay {
     columns: 5;
     min-width: 100%;
     min-height: 120px;
@@ -126,4 +126,20 @@ body {
 
 #nameDate h2 {
     margin: 0;
+}
+
+/*UV coloring*/
+#UV5.UVfavorable {
+    background: green;
+    color: black;
+}
+
+#UV5.UVmoderate {
+    background: yellow;
+    color: black;
+}
+
+#UV5.UVsevere {
+    background: red;
+    color: black;
 }

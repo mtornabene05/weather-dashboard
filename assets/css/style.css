@@ -65,3 +65,65 @@ body {
     color: black;
 }
 
+/* post search display */
+#displaySearchH2 {
+    margin: 0px;
+}
+#displays {
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+}
+
+.displayText {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+#displayMain {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: white;
+    border: black 1px solid;
+    width: 100%;
+}
+
+#display {
+    columns: 5;
+    min-width: 100%;
+    min-height: 120px;
+    color: white;
+}
+
+#fiveDay {
+    border: 1px white solid;
+    background-color: rgb(93, 95, 128);
+    padding-left: 10px;
+    min-height: 120px;
+    padding-bottom: 18px;
+}
+
+#day1, #day2, #day3, #day4, #day5 {
+    padding-top: 10px;
+}
+
+#date.fiveDayText {
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.fiveDayText {
+    font-size: 16px;
+    font-weight: normal;
+    margin-top: 0px;
+}
+
+#displaySearch {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+#nameDate h2 {
+    margin: 0;
+}
